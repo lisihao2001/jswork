@@ -31,7 +31,7 @@ function $(id) {
         }
         $('mask').style.left = maskX + 'px';
         $('mask').style.top = maskY + 'px';
-        var bigImgMove = $('bigImg').offsetWidth - $('bigBox').offsetWidth;
+        var bigImgToMove = $('bigImg').offsetWidth - $('bigBox').offsetWidth;
         var maskToMove = $('smallBox').offsetWidth - $('mask').offsetWidth;
         var rate = bigImgToMove / maskToMove;
         $('bigImg').style.left = -rate * maskX + 'px';

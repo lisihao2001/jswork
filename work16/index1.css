@@ -1,40 +1,10 @@
-.box {
-    width: 350px;
-    height: 350px;
-    border: 1px solid #ccc;
-    position: relative
-}
-
-.big {
-    width: 400px;
-    height: 400px;
+#box {
     position: absolute;
-    top: 0;
-    left: 360px;
-    border: 1px solid #ccc;
-    overflow: hidden;
-    display: none
-}
-
-.mask {
-    width: 175px;
-    height: 175px;
-    background: rgba(225,225,0, .4);
-    position: absolute;
-    top: 0;
-    left: 0;
-    cursor: move;
-    display: none
-}
-
-.small {
-    position: relative
-}
-
-.box img {
-    vertical-align: top
-}
-
-#bigBox img {
-    position: absolute
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    background: red;
+    color: #fff;
+    border-radius: 60px;
 }
